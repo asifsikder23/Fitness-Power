@@ -1,0 +1,246 @@
+body{
+    background-color: #e3e3e4;
+    margin: 0%;
+}
+.menu-container{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px;
+}
+.menu-items{
+    display: flex;
+    margin-left: 400px;
+    
+}
+.menu-items li{
+    list-style: none;
+    margin: 5%;
+    padding: 10;
+    font-size: 18px;
+}
+.menu-items li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.banner-description{
+    margin: 20px;
+}
+.banner-text{
+    color: red;
+    font-size: 24px;
+}
+.title1{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px;
+}
+.title2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+.banner-btn{
+    padding: 18px 38px;
+    background-color: red;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+}
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 20px;
+}
+.card1{
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+    text-align: center;
+    box-shadow: 8px 8px 16px grey;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.card1:hover{
+    border: 1px solid red;
+    margin-top: -20px;
+    transition: 0.8s;
+}
+.gym-icon{
+    width: 50px;
+    
+}
+.about-container{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.about-title{
+    font-size: 30px;
+}
+.about-text{
+    font-size: 15px;
+}
+ul{
+    font-size: 25px;
+}
+.about-left{
+    width: 700px;
+}
+.about-right{
+    width: 700px;
+    
+}
+.workout-img{
+    display: flex;
+    margin: 50px;
+}
+.workout-img img{
+    
+    width: 350px;
+    height: 550px;
+    transform: skewY(-15deg);
+}
+.btn-text{
+    text-decoration: none;
+    color: white;
+}
+.about-us{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.workout-container{
+    width: 600px;
+    height: 200px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: auto;
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+    color: white;
+}
+.service-title{
+    font-size: 50px;
+    text-align: center;
+}
+.service-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 10px;
+}
+.service1{
+    width: 300px;
+    height: 450px;
+    background-image: linear-gradient(rgb(212, 212, 212),white);
+    border: 1px solid grey;
+    box-shadow: 8px 8px 16px grey;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 0.8;
+    padding-bottom: 20px;
+}
+.service-img img{
+    width: 100%;
+}
+.services-footer{
+    display: flex;
+    justify-content:space-between;
+    padding-right: 10px;
+}
+.service-name{
+    color: red;
+    font-size: 18px;
+}
+.join-now{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cardio{
+    font-size: 25px;
+}
+.batch-img{
+    width: 100px;
+    top: -30px;
+    left: 240px;
+    position: absolute;
+}
+.batch{
+    position:relative;
+}
+.footer-container {
+    padding: 100px;
+    line-height: 1.7;
+}
+
+footer {
+    float: left;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.footer h5 {
+    margin-top: 50px;
+    word-spacing: 25px;
+    font-size: 14px;
+    text-align: center;
+    color: #8a8d91;
+
+}
+
+.footer h5 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Alegreya SC', serif;
+}
+
+.footer h5 a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+
+.footer p {
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+.footer p a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+.company-logo{
+    font-size: 18px;
+    margin-right: 200px;
+}
